@@ -23,5 +23,7 @@ public class GoogleHomeService extends ActionManager {
 
     public static void clickSearchButton() {
         click(GoogleConstants.SEARCH_BUTTON_NAME);
+        System.out.println("stop");
+        System.out.println("stop 2");
     }
 }

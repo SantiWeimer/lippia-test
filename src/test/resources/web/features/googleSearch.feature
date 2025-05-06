@@ -6,7 +6,7 @@ Feature: As a potential client i need to search in google to find a web site
     When The client search for word crowdar
     Then The client verify that results are shown properly
 
-  @Smoke @NoCandidate @SearchAutomation
+  @NoCandidate @SearchAutomation
   Scenario: The client search by "Automation"
     Given The client is on google page
     When The client search for word Automation
@@ -18,7 +18,7 @@ Feature: As a potential client i need to search in google to find a web site
     When The client search for word Docker
     Then The client verify that results are shown properly
 
-  @Smoke @Automated @SearchLippia
+  @Automated @SearchLippia
   Scenario: The client search by "Lippia"
     Given The client isn't on google page
     When The client search for word Lippia
